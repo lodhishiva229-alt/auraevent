@@ -104,5 +104,5 @@ contactForm.addEventListener("submit", function (event) {
   formStatus.textContent =
     "Opening your email app. Please send the prepared enquiry.";
 
-  window.location.href = emailLin;
+  window.location.href = emailLink;
 });
