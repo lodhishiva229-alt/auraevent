@@ -102,7 +102,7 @@ contactForm.addEventListener("submit", function (event) {
     "&body=" + encodeURIComponent(body);
 
   formStatus.textContent =
-    "Opening your email app. Please send the prepared enquiry.";
+    "Opening your email app. Please send the prepared enquiry";
 
   window.location.href = emailLink;
 });
